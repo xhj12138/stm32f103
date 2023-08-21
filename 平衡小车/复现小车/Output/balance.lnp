@@ -1,0 +1,50 @@
+--cpu Cortex-M3
+"..\..\output\startup_stm32f103xb.o"
+"..\..\output\stm32f1xx_it.o"
+"..\..\output\main.o"
+"..\..\output\system_stm32f1xx.o"
+<<<<<<< HEAD
+=======
+"..\..\output\control.o"
+"..\..\output\show.o"
+>>>>>>> cfa0758316210b1f15f08368ce0a9cc75cf23735
+"..\..\output\sys.o"
+"..\..\output\delay.o"
+"..\..\output\usart.o"
+"..\..\output\stm32f1xx_hal.o"
+"..\..\output\stm32f1xx_hal_cortex.o"
+"..\..\output\stm32f1xx_hal_dma.o"
+"..\..\output\stm32f1xx_hal_gpio.o"
+"..\..\output\stm32f1xx_hal_gpio_ex.o"
+"..\..\output\stm32f1xx_hal_rcc.o"
+"..\..\output\stm32f1xx_hal_rcc_ex.o"
+"..\..\output\stm32f1xx_hal_uart.o"
+"..\..\output\stm32f1xx_hal_usart.o"
+"..\..\output\stm32f1xx_hal_adc.o"
+"..\..\output\stm32f1xx_hal_adc_ex.o"
+"..\..\output\stm32f1xx_hal_exti.o"
+"..\..\output\stm32f1xx_hal_flash.o"
+"..\..\output\stm32f1xx_hal_flash_ex.o"
+"..\..\output\stm32f1xx_hal_tim.o"
+"..\..\output\stm32f1xx_hal_tim_ex.o"
+"..\..\output\key.o"
+"..\..\output\atim.o"
+"..\..\output\adc.o"
+"..\..\output\led.o"
+"..\..\output\oled.o"
+"..\..\output\gtim.o"
+"..\..\output\mpu6050_iic.o"
+"..\..\output\mpu6050.o"
+"..\..\output\exti.o"
+"..\..\output\inv_mpu.o"
+"..\..\output\inv_mpu_dmp_motion_driver.o"
+<<<<<<< HEAD
+"..\..\output\control.o"
+"..\..\output\show.o"
+"..\..\output\bt04.o"
+=======
+>>>>>>> cfa0758316210b1f15f08368ce0a9cc75cf23735
+--strict --scatter "..\..\Output\balance.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\Output\balance.map" -o ..\..\Output\balance.axf
